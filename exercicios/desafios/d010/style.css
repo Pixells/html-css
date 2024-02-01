@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('idroid.otf') format('opentype');
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: aquamarine;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+header {
+    color: white;
+    background-color: rgb(0, 161, 108);
+    text-align: center;
+    padding: 10px;
+}
+nav{
+    text-align: left;
+    
+}
+main {
+    background-color: white;
+    margin: 0px 100px 0px 100px;
+    padding: 10px;
+    box-shadow: 50px;
+}
+#toptitulo {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 161, 108);
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#subtitulo {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 161, 108);
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+#home:hover {
+    background-color: rgb(0, 63, 42);
+}
+#noticias:hover {
+    background-color: rgb(0, 63, 42);
+}
+#curiosidades:hover {
+    background-color: rgb(0, 63, 42);
+}
+#faleconosco:hover {
+    background-color: rgb(0, 63, 42);
+}
+
+
+h1 {
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+    color: rgb(0, 63, 42);
+    background-color: rgba(127, 255, 212, 0.185);
+}
+
+footer {
+    background-color: rgb(0, 63, 42);
+    border: 10px;
+    padding: 1px;
+    color: white;
+}

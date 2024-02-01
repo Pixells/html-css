@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+
+    <video width="500" poster="imagens/limoes-capa.png" controls muted autoplay loop> <!--autoplay em videos só funciona com ta tag muted, ou seja o video precisa estar mutado-->
+        <source src="midia/Meu-Video.mp4" type="video/mp4">
+        <source src="midia/meu-video.m4v" type="video/mp4">
+        <source src="midia/Meu-Video.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+        <!--Videos produzido pela tag Videos que são hospedados serão muito caros para os clientes-->
+    </video>
+
+    <h1>Inserindo Vídeos do Youtube</h1>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/i7L19SOqbNM?si=zW0ibuCPD1E61FDT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Inserindo vídeo do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/898953374?h=c7fe3240e5&title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
